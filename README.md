@@ -18,7 +18,7 @@ devtools::install_github("Almeras-Lionel/MSProfileR")
 Vignette installation may not work, in this case, run the following:
 
 ```R
-devtools::install_github("Almeras-Lionel/MSProfileR", upgrade = "never")
+devtools::install_github("Almeras-Lionel/MSProfileR", upgrade = "never", force = TRUE)
 ```
 
 R may require a session restart in order to properly run the application.
